@@ -1,8 +1,66 @@
 /*this is only testing style from a solved activity*/
 /*2020/04/13 - Randy Dettmer*/
 /* giving the body a dark background to better see the bright colored boxes */
+
 body {
-  background: #555;
+  /* padding: 100px; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  font-family: "fantasy";
+  font-size: 20px;
+  line-height: 150%;
+  color: #333;
+  background: lightgoldenrodyellow;
+  position:relative;
+  }
+
+  /* body .first_line{background: yellowgreen;
+  width: 100%;
+  height: 100%;
+  background-color: yellowgreen;
+  position:relative;
+  display:inline-block;
+  left:50px;
+  } */
+
+  #first_line_color{background: slateblue;
+  width: 100%;
+  height: 100%;
+  background-color: slateblue;
+  position:relative;
+  display:inline-block;
+  left:0px;
+  }
+
+  body .row1{background: yellowgreen;
+  width: 100%;
+  height: 100%;
+  background-color: yellowgreen;
+  position:relative;
+  display:inline-block;
+  left:0px;
+  }
+
+/*testing on watermark*/
+/*nothing has been assigned to this watermark - ideally this would be some type of palm tree?*/
+
+.watermark {
+  width: 300px;
+  height: 100px;
+  display: block;
+  position: relative;
+}
+
+.watermark::after {
+  content: "";
+ background:url(https://www.google.co.in/images/srpr/logo11w.png);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 /* every box is this size */
