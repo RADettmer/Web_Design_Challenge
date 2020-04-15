@@ -1,168 +1,72 @@
 <!DOCTYPE html>
+<!--set document type as HTML and language as English - US - Randy Dettmer 2020/04/13-->
 <html lang="en-us">
-<!--this is a test - Randy Dettmer 2020/04/13-->
+<!--set header with meta links to Google Chrome-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+	<title>Index</title>
+	<!-- reset stylesheet -->
     <link rel="stylesheet" href="reset.css">
-
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
+	<!--rows function in containers (grid created)-->
     <div class="container">
-    <div id="first_line_color">
-        <div class="row">   
-                <!-- <div class="form-inline">   -->
-                <div class="col-md-6">    
-                        <div class="first_line" >
-                            <div class="div1"><h1><strong>LATITUDE</strong></h1> </div>
-                        </div>    
-                </div>  
-                
-               <div class="col-md-2">     
-                    <!-- <div class="btn-group" role="group" aria-label="Basic example"> -->
-                        <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Plot
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="latvstemp.html">Maximum Temperature</a>
-                            <a class="dropdown-item" href="latvshumidity.html">Humidity</a>
-                            <a class="dropdown-item" href="latvscloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="latvswindspeed.html">Wind Speed</a>
-                        </div>
-                        </div>
-                </div>  
-
-                <div class="col-md-2">  
-                    <form>
-                       <input class="MyButton1" type="button" value="Comparison" onclick="window.location.href='comparison.html'" />       
-                    </form>
-                </div> 
-
-                <div class="col-md-2">
-                      <form>
-                            <input class="Mybutton2" type="button" value="Data" onclick="window.location.href='weatherdata.html'" />       
-                      </form>
-    <!-- <button type="button" href="data.html"> <a class="dropdown-item" href="https://www.youtube.com">Data</a> </button> --> 
-                </div>
-        </div>
-<!-- </div> -->
-</div>
-<br>
-
-
-<div class="Col_container">
-    <!--Normally these medium columns go full wide on small screen sizes-->
-    <div class="row">
-    
-      
-      <div class="col-md-8">
-        <!-- <div class="box skyblue"> -->
-
-          <main class="container1">
-            <header>
-                <h1><strong>: LATITUDE versus X</strong></h1>
-            </header>
-                <section id="introduction">
-                    <figure id="main_figure">
-                      <!-- <figcaption>latitude_Max-Temperature</figcaption> -->
-                      <img  id="main_fig" src="lat_vs_max_temp.png" alt="Max-Temperature" style="width:300px;height:300px;float:left">
-                    </figure>
-                <p>&emsp; This project is to visualize a weather analysis results performed in a previous project <a href="https://github.com/RADettmer/python-api-challenge"> Weather project</a>, in which we studied the current weather all over 
-            the world. We are supposed to choose more than 500 cities 
-            with random latitude and longitude coordinates. Query the
-             weather data from OpenWeatherMap API, make some plots
-              and draw some conclusions about the dependence of 
-              weather on the latitude value.</p>
-                <p>Observations
-
-                    1) The plot for latitude vs temperature shows that once we get further north of the equator (latitude = 0) the temperature drops significatly.
-                    
-                    2) The plot for the latitude vs humitidty shows that despite the latitude, most of the higher humdity (values greater than 40%) are across all latitudes.
-                    
-                    3) The plot for the latitude vs cloudiness shows that there really isn't any significat difference across the latitudes.
-                    
-                    4) The plot for latitude vs wind speed shows that regardless which latitude, the wind will range between 0 and 20 MPH. There doesn't seem to be a latitude that is immune to wind.</p>
-                 <p>&emsp; Here we presented the results in a web visualization dashboard. 
-                     This is a user-friendly way to access the results presented in <a href="https://github.com/RADettmer/python-api-challenge"> Weather project</a>. For further technique detailes, please 
-                go back to  <a href="https://github.com/RADettmer/python-api-challenge"> Weather project</a> where we have python codes(jupyter notebook version) to attain the 
-                corresponding data for today.
-            </p>
-        </section>
-      </main> 
-      
-      </div>
-      <!-- </div> -->
-      
-      
-      <div class="col-md-4">
-          
-                <main class="container2">
-                    <header>
-                        <h2>Visualizations</h2>
-                    </header>
-                <!--Normally these medium columns go full wide on small screen sizes-->
-                <div class="row">
-                  <div class="col-xs-3 col-sm-3 col-md-6">
-                      <figure id="main1_figure">
-                          <!-- <figcaption>latitude_Max-Temperature</figcaption> -->
-                        <a href="https://github.com/RADettmer/python-api-challenge/blob/master/lat_vs_max_temp.png">
-                          <img src="lat_vs_max_temp.png" alt="Max-Temperature" style="width:150px;height:150px;">
-                        </a>
-                        </figure>
-            
-                  </div>
-                  <div class="col-xs-3 col-sm-3 col-md-6">
-                      <figure id="main1_figure">
-                          <!-- <figcaption>latitude_Max-Temperature</figcaption> -->
-                          <a href="https://github.com/RADettmer/python-api-challenge/blob/master/lat_vs_cloudiness.png">
-                          <img   src="lat_vs_cloudiness.png" alt="Cloudiness" style="width:150px;height:150px;">
-                          </a>
-                        </figure>
-                  </div>
-                <!-- </div> -->
-
-                <!-- <div class="row"> -->
-                    <div class="col-xs-3 col-sm-3 col-md-6">
-                        <figure id="main1_figure">
-                            <!-- <figcaption>latitude_Max-Temperature</figcaption> -->
-                            <a href="./Humidity.html">
-                            <img   src="./Resources/latitude_humidity.png" alt="latitude_humidity" style="width:150px;height:150px;">
-                            </a>  
-                        </figure>
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-6">
-                        <figure id="main1_figure">
-                            <!-- <figcaption>latitude_Max-Temperature</figcaption> -->
-                            <a href="./wind-speed.html">
-                            <img  src="./Resources/latitude_wind-speed(mph).png" alt="latitude_wind-speed" style="width:150px;height:150px;">
-                            </a>  
-                        </figure>
-                    </div>
-                  </div>
-                  </main>
-           
-            
-      </div>
-    </div>
-
-        
-        
-        <br><br>
-<!-- <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name"> -->
-
-
+		<!--columns function in rows-->
+		<div class="row">
+		<div class="col-md-6">
+			<div id="header">
+				<h1><strong>LATITUDE</strong><h1>
+			</div><!--div id=header-->
+		</div><!--end of class=col-md-6-->
+		<!--create navbar-->
+		<div class="col-md-6">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="comparison.html">Comparison</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="weather_table.html">Data</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown link
+						</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="latvstemp.html">Maximum Temerature</a>
+						<a class="dropdown-item" href="latvshumidity.html">Humidity</a>
+						<a class="dropdown-item" href="latvscloudiness.html">Cloudiness</a>
+						<a class="dropdown-item" href="latvswindspeed.html">Wind Speed</a>
+					</div>
+					</li>
+				</ul>
+			</div>
+			</nav>
+			</div><!--div id=col-md-6-->
+			<div class="row">
+			<div id="main">
+				<h2><strong>Home Page</strong></h2>
+			<p>some text goes here</p>
+			<p>some more text goes here</p>
+			</div><!--div id=main-->
+			</div><!--div class=row-->
+		<div class="row">
+		<div id="footer">
+			Copyright &copy; 2020 Randall A Dettmer
+		</div><!--div id=footer-->
+		</div><!--class=row-->
+	</div>
 </body>
-    <!-- These bootstrap links go just before the end of the body end-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-  
-</html> 
+</html>
