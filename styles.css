@@ -49,10 +49,9 @@ body{
   } 
   turned off */
 
-#footer{
-    clear: both;
+
+footer {
+    background-color: darkblue;
+    color: whitesmoke;
     padding: 10px;
-    background-color: #eeeeee;
-    color: white;
-    text-align: right;
 }

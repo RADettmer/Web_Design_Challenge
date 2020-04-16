@@ -25,7 +25,7 @@
 
 		<!--create navbar-->
 		<div class="col-md-6">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			<a class="navbar-brand" href="#">Navbar</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="comparison.html">Comparison</a>
@@ -43,7 +43,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown link
+						Dropdown Link
 						</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="latvsmaxtemp.html">Maximum Temerature</a>
@@ -63,32 +63,32 @@
 
 	<div class="container">
 		<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-4">
 		<div id="main">
 			<h3><strong>Summary: Latitude versus X</strong></h3>
 			<p>some text goes here</p>
 			<p>some more text goes here</p>
 		</div><!--div id=main-->
 		</div><!--div id=col-md-6-->
-		</div><!--div class=row-->
+		
 	</div><!--class=container-->
 
 	<div class="container"><!--preview window-->
-		<div class="row">
-		<div class="col-md-6">
+		
+		<div class="col-xs-3 col-sm-3 col-md-6">
 		<div id="view">
 			<h4><strong>Summary: View</strong></h4>
 			<a target="_blank" href="Resources/assets/images/lat_vs_cloudiness.png">
-				<img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudy Map">
+				<img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudy Map" style="width:150px;height:150px;">
 			</a>
 			<a target="_blank" href="Resources/assets/images/lat_vs_humidity.png">
-				<img src="Resources/assets/images/lat_vs_humidity.png" alt="Humidity Map">
+				<img src="Resources/assets/images/lat_vs_humidity.png" alt="Humidity Map" style="width:150px;height:150px;">
 			</a>
 			<a target="_blank" href="Resources/assets/images/lat_vs_max_temp.png">
-				<img src="Resources/assets/images/lat_vs_max_temp.png" alt="Temp Map">
+				<img src="Resources/assets/images/lat_vs_max_temp.png" alt="Temp Map" style="width:150px;height:150px;">
 			</a>
 			<a target="_blank" href="Resources/assets/images/lat_vs_windspeed.png">
-				<img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Map">
+				<img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Map" style="width:150px;height:150px;">
 			</a>
 
 		</div><!--div id=view-->
@@ -98,12 +98,20 @@
 
 <hr>
 
-	<div class="container">
-		<div class="row">
+<div class="container">
+	<div class="row justifiy-content-end">
 		<div id="footer">
 			Copyright &copy; 2020 Randall A Dettmer
 		</div><!--div id=footer-->
-		</div><!--class=row-->
-	</div><!--class=container-->
+	</div><!--class=row-->
+</div><!--class=container-->
+
+<!-- These bootstrap links go just before the end of the body end-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>
