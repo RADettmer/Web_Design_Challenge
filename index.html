@@ -22,12 +22,13 @@
 				<h1><strong>LATITUDE</strong><h1>
 			</div><!--div id=header-->
 		</div><!--end of class=col-md-6-->
+
 		<!--create navbar-->
 		<div class="col-md-6">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">Navbar</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
 				</button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
@@ -45,7 +46,7 @@
 						Dropdown link
 						</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="latvstemp.html">Maximum Temerature</a>
+						<a class="dropdown-item" href="latvsmaxtemp.html">Maximum Temerature</a>
 						<a class="dropdown-item" href="latvshumidity.html">Humidity</a>
 						<a class="dropdown-item" href="latvscloudiness.html">Cloudiness</a>
 						<a class="dropdown-item" href="latvswindspeed.html">Wind Speed</a>
@@ -53,20 +54,56 @@
 					</li>
 				</ul>
 			</div>
-			</nav>
-			</div><!--div id=col-md-6-->
-			<div class="row">
-			<div id="main">
-				<h2><strong>Home Page</strong></h2>
+		</nav>
+		</div><!--div id=col-md-6-->
+	</div><!--class=container-->
+	
+<hr>
+<hr>
+
+	<div class="container">
+		<div class="row">
+		<div class="col-md-6">
+		<div id="main">
+			<h3><strong>Summary: Latitude versus X</strong></h3>
 			<p>some text goes here</p>
 			<p>some more text goes here</p>
-			</div><!--div id=main-->
-			</div><!--div class=row-->
+		</div><!--div id=main-->
+		</div><!--div id=col-md-6-->
+		</div><!--div class=row-->
+	</div><!--class=container-->
+
+	<div class="container"><!--preview window-->
+		<div class="row">
+		<div class="col-md-6">
+		<div id="view">
+			<h4><strong>Summary: View</strong></h4>
+			<a target="_blank" href="Resources/assets/images/lat_vs_cloudiness.png">
+				<img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudy Map">
+			</a>
+			<a target="_blank" href="Resources/assets/images/lat_vs_humidity.png">
+				<img src="Resources/assets/images/lat_vs_humidity.png" alt="Humidity Map">
+			</a>
+			<a target="_blank" href="Resources/assets/images/lat_vs_max_temp.png">
+				<img src="Resources/assets/images/lat_vs_max_temp.png" alt="Temp Map">
+			</a>
+			<a target="_blank" href="Resources/assets/images/lat_vs_windspeed.png">
+				<img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Map">
+			</a>
+
+		</div><!--div id=view-->
+		</div><!--div id=col-md-6-->
+		</div><!--div class=row-->
+	</div><!--class=container-->
+
+<hr>
+
+	<div class="container">
 		<div class="row">
 		<div id="footer">
 			Copyright &copy; 2020 Randall A Dettmer
 		</div><!--div id=footer-->
 		</div><!--class=row-->
-	</div>
+	</div><!--class=container-->
 </body>
 </html>
