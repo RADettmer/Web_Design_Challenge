@@ -20,11 +20,14 @@ body{
     padding: 10px;
 }
 
+/* container turned off here  
 #container{
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-}
+} 
+this is turned off */
+
 
 /*testing on watermark*/
 /*nothing has been assigned to this watermark - ideally this would be some type of palm tree?*/

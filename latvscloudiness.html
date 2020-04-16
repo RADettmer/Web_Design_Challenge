@@ -33,16 +33,16 @@
 				</button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
+					<li class="nav-item active"><!--add link to return to home page-->
 						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item"><!--add link to return to comparison page-->
 						<a class="nav-link" href="comparison.html">Comparison</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item"><!--add link to return to data page-->
 						<a class="nav-link" href="weather_table.html">Data</a>
 					</li>
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown"><!--add links (as dropdown) to other pages in this site-->
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Dropdown Link
 						</a>
@@ -60,28 +60,33 @@
 	</div><!--class=container-->
 	
 <hr>
-<h3><strong>CLOUDINESS</strong></h3>  
+<h2><strong>CLOUDINESS</strong></h2><!--added title for page--> 
 <hr>
       
-    <div class="container">
+    <div class="container"><!--create container for the image-->
         <div class="row justify-content-center">
+		<!--set content to the cent of the page and pull image from Resources/assets/images folder-->
             <a target="_blank" href="Resources/assets/images/lat_vs_cloudiness.png">
 				<img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudiness">
 			</a>
-			
-            <p>The plot for the latitude vs cloudiness shows that there really isn't any significat difference across the latitudes.</p>
+			<!--add comments about the image-->
+            <p class="text-justify">The plot for the latitude vs cloudiness shows that there really isn't any significat difference across the latitudes.</p>
         </div>
     </div>
 
-<hr>
-
-	<div class="container">
-		<div class="row">
-			<div id="footer">
-				Copyright &copy; 2020 Randall A Dettmer
-			</div><!--div id=footer-->
-		</div><!--class=row-->
-	</div><!--class=container-->
+<footer><!--create footer-->
+	<div class="row text-center">
+		<div class="col-md-4">
+		<!--empty space-->
+		</div>
+		<div class="col-md-4"><!--added copyright notice-->
+			<p>Copyright &copy; 2020 Randall A Dettmer</p>
+		</div>
+		<div class="col-md-4">
+			<a class="" href="#"><img scr="" alt=""></a><!--need logo for this-->
+		</div>
+	</div>
+</footer>
 
   <!-- These bootstrap links go just before the end of the body end-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
