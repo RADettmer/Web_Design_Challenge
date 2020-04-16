@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<!--this is a test - Randy Dettmer 2020/04/13-->
+<!--this is a test - Randy Dettmer 2020/04/16-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,56 +54,53 @@
 					</div>
 					</li>
 				</ul>
-			</div>
-		</nav>
-		</div><!--div id=col-md-6-->
-	</div><!--class=container-->
-	
-<hr>
-<hr2><strong>COMPARISON</strong></hr2><!--add title for page--> 
-<hr>
-<!--start of table display-->    
-    <div class="container">
-        <div class="row">
+			</div><!--end of navbar-->
+		</nav><!--end of nav-->
+		</div><!--div id=col-md-6 end-->
+	</div><!--class=container end-->  
 
-        
-                <div class="col-md-4">
-                
-                    <a target="_blank" href="Resources/assets/images/lat_vs_cloudiness.png">
-                        <img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudiness">
-                    </a>
-        
-                
-                    <a target="_blank" href="Resources/assets/images/lat_vs_humidity.png">
-                        <img src="Resources/assets/images/lat_vs_humidity.png" alt="Humidity">
-                    </a>
-        
-                </div>
+<br>
+       <!--start of table display-->
+        <!-- <div class="Col_container"> -->
+        <main class="container">
+                <header>
+                    <h1><strong>COMPARISON: LATITUDE VS. X</strong></h1>
+                </header>
+                <p>click any plot to get further analysis</p>
 
-            <div class="container"><!--preview window-->
-                <div class="row">
-                <div class="col-md-4">
-                
-                    <a target="_blank" href="Resources/assets/images/lat_vs_max_temp.png">
-                        <img src="Resources/assets/images/lat_vs_max_temp.png" alt="Maximum Temerature">
-                    </a>
-                 
-                </div><!--div id=col-md-6-->
-                </div><!--div class=row-->
-        
-                <div class="row">
-                <div class="col-md-4">
-                    <a target="_blank" href="Resources/assets/images/lat_vs_windspeed.png">
-                        <img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Speed">
-                    </a>
-        
-                
-                </div><!--div id=col-md-6-->
-                </div><!--div class=row-->
-            </div><!--class=container-->
+                    <!--these medium columns go full wide on small screen sizes-->
+            <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                                
+                            <a href="latvsmaxtemp.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                                <figcaption style="text-align: center;font-size: 150%">vs. Maximum Temperature</figcaption>
+                                <img src="Resources/assets/images/lat_vs_max_temp.png" alt="Maximum Temperature" >
+                            </figure></a>    
+                    </div>
 
-        </div>
-    </div>
+
+                     <div class="col-sm-6 col-md-6">
+                           <a href="latvscloudiness.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">vs. Cloudiness</figcaption>
+                           <img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudiness" >
+                                  </figure></a>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                           <a href="latvshumidity.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">vs. Humidity</figcaption>
+                           <img src="Resources/assets/images/lat_vs_humidity.png" alt="Humidity" >
+                                </figure></a>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                            <a href="latvswindspeed.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%;">
+                              <figcaption style="text-align: center;font-size: 150%">vs. Wind-speed</figcaption>
+                                <img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Speed" >
+                             </figure></a>
+                    </div>
+            </div>
+        </main>
 
 <hr>
 

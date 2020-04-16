@@ -1,23 +1,16 @@
+/*set body color for all pages*/
 body{
     background-color: #eeeeee;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*a{
-    text-decoration: none;
-    color: red;
-} turned off */
-
-/*h1, h2, h3{
-    margin: 0;
-} turned off */
-
+/*padding adjusted to match navbar width*/
 #header{
     background-color: #66CCFF;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
 }
 
 /* container turned off here  
@@ -29,9 +22,8 @@ body{
 this is turned off */
 
 
-/*testing on watermark*/
-/*nothing has been assigned to this watermark - ideally this would be some type of palm tree?*/
-/*
+/*testing on watermark
+
 .watermark {
     width: 300px;
     height: 100px;
@@ -41,7 +33,7 @@ this is turned off */
   
   .watermark::after {
     content: "";
-   background:url(https://www.google.co.in/images/srpr/logo11w.png);
+    background: href="directions.jpg";
     opacity: 0.2;
     top: 0;
     left: 0;
@@ -50,8 +42,8 @@ this is turned off */
     position: absolute;
     z-index: -1;   
   } 
-  turned off */
-
+ 
+testing on watermark*/
 
 footer {
     background-color: darkblue;

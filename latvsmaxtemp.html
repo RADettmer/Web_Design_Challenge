@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<!--establish html file tipe with US English-->
 <html lang="en-us">
-<!--this is a test - Randy Dettmer 2020/04/13-->
+
+<!--set title and Google Inspector - - - - - - - Randy Dettmer 2020/04/16-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +12,9 @@
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
-<body>
+<body><!--set up dropdown buttons to navigate from this screen to others-->
 	<!--rows function in containers (grid created)-->
     <div class="container">
 		<!--columns function in rows-->
@@ -22,16 +23,16 @@
 			<div id="header">
 				<h1><strong>LATITUDE</strong><h1>
 			</div><!--div id=header-->
-		</div><!--end of class=col-md-6-->
+		</div><!--end of class=col-md-6/header-->
 
 		<!--create navbar-->
 		<div class="col-md-6">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-			<a class="navbar-brand" href="#">Navbar</a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary"><!--change default color darker-->
+			<a class="navbar-brand" href="#">Navbar</a><!--create button with dropdown-->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<div class="collapse navbar-collapse" id="navbarNavDropdown"><!--add links to be able to navigate to other pages on the site-->
 				<ul class="navbar-nav">
 					<li class="nav-item active">
 						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -42,7 +43,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="weather_table.html">Data</a>
 					</li>
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown"><!--add links (as a dropdown) to other pages on this site-->
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Dropdown Link
 						</a>
@@ -59,19 +60,19 @@
 		</div><!--div id=col-md-6-->
 	</div><!--class=container-->
 	
-<hr>
-<h3><strong>MAXIMUM TEMPERATURE</strong></h3>
-<hr>    
-    
-<div class="container">
-	<div class="row justifiy-content-center">
-        <a target="_blank" href="Resources/assets/images/lat_vs_max_temp.png">
-			<img src="Resources/assets/images/lat_vs_max_temp.png" alt="Maximum Temerature">
-		</a>
+<hr><!--title for page-->
+<h2><strong>MAXIMUM TEMPERATURE</strong></h2>
+<hr>  
+   
+	<div class="container">
+		<div class="row justify-content-center">
+        	<a target="_blank" href="Resources/assets/images/lat_vs_max_temp.png">
+				<img src="Resources/assets/images/lat_vs_max_temp.png" alt="Maximum Temerature">
+			</a>
 
-        <p class="text-justify">The plot for latitude vs temperature shows that once we get further north of the equator (latitude = 0) the temperature drops significatly.</p>
-    </div>
-</div>
+        	<p class="text-justify">The plot for latitude vs temperature shows that once we get further north of the equator (latitude = 0) the temperature drops significatly.</p>
+    	</div>
+	</div>
 <hr>
 
 <footer><!--create footer-->

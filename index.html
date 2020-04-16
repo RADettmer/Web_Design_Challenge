@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--set document type as HTML and language as English - US - Randy Dettmer 2020/04/13-->
+<!--set document type as HTML and language as English - US - Randy Dettmer 2020/04/16-->
 <html lang="en-us">
 <!--set header with meta links to Google Chrome-->
 <head>
@@ -26,7 +26,7 @@
 		<!--create navbar-->
 		<div class="col-md-6">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<a class="navbar-brand" href="#">Plots:</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -43,7 +43,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown Link
+						Dropdown Links
 						</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="latvsmaxtemp.html">Maximum Temerature</a>
@@ -56,45 +56,43 @@
 			</div>
 		</nav>
 		</div><!--div id=col-md-6-->
-	</div><!--class=container-->
+	</div><!--class=container - everything works ok up to here-->
 	
 <hr>
 <hr>
 
-	<div class="container">
-		<div class="row">
-		<div class="col-md-4">
+<div class="container">
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 col-md-6">
 		<div id="main">
-			<h3><strong>Summary: Latitude versus X</strong></h3>
-			<p>some text goes here</p>
-			<p>some more text goes here</p>
+			<h3><strong>Summary: Latitude versus X</strong></h3><!--create title and text with link to source project on my Github-->
+			<p>This project is to visualize weather analysis from a previous project <a href="https://github.com/RADettmer/python-api-challenge"> WeatherPy and VacationPy</a>. The prior project studied current weather across the world collecting weather data from over 500 locations using the OpenWeatherMap API.</p>
+			<!--this attempt to get the photo to appear is not working-->
+			<a target="blank" href="Resources/assets/images/directions.jpg">
+				<img scr="Resources/assets/images/directions.jpg" alt="directions" style="width:180px;height:180px;">
+			</a>
 		</div><!--div id=main-->
-		</div><!--div id=col-md-6-->
-		
-	</div><!--class=container-->
-
-	<div class="container"><!--preview window-->
+		</div><!--div id=col-md-4-->
 		
 		<div class="col-xs-3 col-sm-3 col-md-6">
-		<div id="view">
+		<div id="view"><!--preview of plots-->
 			<h4><strong>Summary: View</strong></h4>
 			<a target="_blank" href="Resources/assets/images/lat_vs_cloudiness.png">
-				<img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudiness" style="width:150px;height:150px;">
+				<img src="Resources/assets/images/lat_vs_cloudiness.png" alt="Cloudiness" style="width:175px;height:175px;">
 			</a>
 			<a target="_blank" href="Resources/assets/images/lat_vs_humidity.png">
-				<img src="Resources/assets/images/lat_vs_humidity.png" alt="Humidity" style="width:150px;height:150px;">
+				<img src="Resources/assets/images/lat_vs_humidity.png" alt="Humidity" style="width:175px;height:175px;">
 			</a>
 			<a target="_blank" href="Resources/assets/images/lat_vs_max_temp.png">
-				<img src="Resources/assets/images/lat_vs_max_temp.png" alt="Maximum Temerature" style="width:150px;height:150px;">
+				<img src="Resources/assets/images/lat_vs_max_temp.png" alt="Maximum Temerature" style="width:175px;height:175px;">
 			</a>
 			<a target="_blank" href="Resources/assets/images/lat_vs_windspeed.png">
-				<img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Speed" style="width:150px;height:150px;">
+				<img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Speed" style="width:175px;height:175px;">
 			</a>
-
 		</div><!--div id=view-->
-		</div><!--div id=col-md-6-->
-		</div><!--div class=row-->
-	</div><!--class=container-->
+		</div><!--div id=col-various-->
+	</div><!--div class=row-->
+</div><!--class=container-->
 
 <hr>
 
