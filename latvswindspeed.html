@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!--establish html file type with US English as the language-->
 <html lang="en-us">
-<!--this is a test - Randy Dettmer 2020/04/13-->
+
 <head>
+<!--set title and Google Inspector - - - - - - - Randy Dettmer 2020/04/16-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wind Speed</title>
@@ -10,29 +12,28 @@
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
-<body>
+<body><!--set up dropdown buttons to navigate from this screen to others-->
   	<!--rows function in containers (grid created)-->
     <div class="container">
 		<!--columns function in rows-->
 		<div class="row">
-		<div class="col-md-6">
+		<div class="col-sm-4 col-md-6"><!--half wide on medium screens and 1/4 wide on smaller screens-->
 			<div id="header">
 				<h1><strong>LATITUDE</strong><h1>
 			</div><!--div id=header-->
-		</div><!--end of class=col-md-6-->
-
+		</div><!--end of class=col-->
+<!--create navbar this code was downloaded from https://getbootstrap.com/docs/4.0/components/navbar/ -->
 		<!--create navbar-->
-		<div class="col-md-6">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-			<a class="navbar-brand" href="#">Navbar</a>
+		<div class="col-sm-4 col-md-6"><!--half wide on medium screens and 1/4 wide on smaller screens-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary"><!--change default color darker-->
+			<a class="navbar-brand" href="#">Plots:</a><!--create button with dropdown-->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav"><!--add links to be able to navigate to other pages on the site-->
 					<li class="nav-item active"><!--add link to return to home page-->
 						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
@@ -56,34 +57,35 @@
 				</ul>
 			</div>
 		</nav>
-		</div><!--div id=col-md-6 end-->
+		</div><!--div id=col end-->
 	</div><!--class=container end-->
 	
-<hr>
-<h2><strong>WIND SPEED</strong></h2><!--added title for page-->
+<hr><!--added title for page-->
+<h2><strong>WIND SPEED</strong></h2>
 <hr>  
     
-    <div class="container"><!--create container for table-->
-        <div class="row justify-content-center"><!--set content to center of page and pull image from Resources/assets/images folder-->
-            <a target="_blank" href="Resources/assets/images/lat_vs_windspeed.png">
+    <div class="container"><!--create container for graph-->
+        <div class="row justify-content-center"><!--center graph on any size device-->
+			<!--set content to center of page and pull image from Resources/assets/images folder-->
+			<a target="_blank" href="Resources/assets/images/lat_vs_windspeed.png">
 				<img src="Resources/assets/images/lat_vs_windspeed.png" alt="Wind Speed">
-				<!--style="width:450px;height:450px;" too big, this is default setting -->
+				
 			</a>
 			<!--add comments about the image-->
-            <p class="text-justify">The plot for latitude vs wind speed shows that regardless which latitude, the wind will range between 0 and 20 MPH. There doesn't seem to be a latitude that is immune to wind.</p>
+            <p class="pix-note text-justify">The plot for latitude vs wind speed shows that regardless which latitude, the wind will range between 0 and 20 MPH. There doesn't seem to be a latitude that is immune to wind.</p>
         </div>
-	</div>
+	</div><!--end container for graph-->
 
 <footer><!--create footer-->
 	<div class="row text-center">
 		<div class="col-md-4">
-		<!--empty space-->
-		</div>
-		<div class="col-md-4"><!--added copyright notice-->
-			<p>Copyright &copy; 2020 Randall A Dettmer</p>
+			<a href="https://radettmer.github.io/Randy-Dettmer-Bio-Page/"> GitHub Bio</a><!--link to GitHub bio page-->
 		</div>
 		<div class="col-md-4">
-			<a class="" href="#"><img scr="" alt=""></a><!--need logo for this-->
+			<p>Copyright &copy; 2020 Randall A Dettmer</p><!--added copyright notice-->
+		</div>
+		<div class="col-md-4">
+			<a href="https://www.linkedin.com/in/randydettmercscpmba/"> LinkedIn Link</a><!--link to LinkedIn profile-->
 		</div>
 	</div>
 </footer>
