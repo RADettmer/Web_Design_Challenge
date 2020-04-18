@@ -5,11 +5,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*padding adjusted to match navbar width and color*/
+/*padding adjusted to match navbar heighth and color*/
 #header{
     background-color: #3383ff;
     color: white;
-    text-align: center;
     padding-top: 1px;
 	padding-bottom: 1px;
 }
@@ -18,9 +17,14 @@ body{
     padding-top: 20px;
 }
 
-/*set scheme for footer*/
+/*set scheme for footer to match header*/
 footer {
     background-color: #3383ff;
     color: whitesmoke;
     padding: 10px;
+}
+
+/*set font color for links in footer*/
+.foot-color {
+    color: whitesmoke;
 }
