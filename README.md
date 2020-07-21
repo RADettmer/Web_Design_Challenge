@@ -10,6 +10,7 @@ Resources/Assests:
 
 The weather_table was converted from csv to html using csvtohtml.ipynb in the Resources folder, file converted was output_data.csv.
 
+Link to page:  https://radettmer.github.io/Web_Design_Challenge/
 
 Files in the repository:
 
