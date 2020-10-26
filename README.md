@@ -12,6 +12,8 @@ The weather_table was converted from csv to html using csvtohtml.ipynb in the Re
 
 Link to page:  https://radettmer.github.io/Web_Design_Challenge/
 
+Shout out to the following folks to create the navbar.  The code was downloaded from https://getbootstrap.com/docs/4.0/components/navbar/
+
 Files in the repository:
 
 Resources/Assests/Images:
@@ -26,7 +28,6 @@ output_data.csv - cleaned data from the Python-APIs project;
 csvtohtml.ipynb - python/jupyter notebook file to convert csv to html;
 
 html/css files:
-
 comparison.html - comparison page;
 index.html - home/index page;
 latvscloudiness.html - cloudiness graph page;
@@ -39,7 +40,6 @@ weather_table.html - weather table page;
 
 
 Visualizations:
-
 These files have screen shots of the website on a large device or a small device.
 
 WebVisualizations_comparison_large.png;
