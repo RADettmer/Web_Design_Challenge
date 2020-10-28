@@ -2,8 +2,8 @@
 
 Summary:
 
-This web design challenge utilizes HTML, CSS and Bootstrap.  This project is a visualization of a prior project using Python-APIs. The weather data was collected from 560 locations across the world on March 15, 2020 using the OpenWeatherMap API.
-The data utilized in this vizualization was generated with this prior project. A link is available in the web visualization.
+This web design challenge utilizes HTML, CSS and Bootstrap to build a dashboard using visualizations from a prior project using Python-APIs. The weather data was collected from 560 locations across the world on March 15, 2020 using the OpenWeatherMap API.
+The data utilized in this vizualization was generated with this prior project. A link to the prior project is available in the web visualization below.
 
 ## Resources/Assets:
 
